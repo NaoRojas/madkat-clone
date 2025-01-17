@@ -1,9 +1,12 @@
+@import url("../../styles/styles.scss");
+
 .navigation {
   height: 70px;
   width: 100%;
   display: flex;
   justify-content: space-between;
   margin-bottom: 25px;
+  padding: 16px 0;
 
   .logo-container {
     height: 100%;
@@ -21,6 +24,14 @@
     .nav-link {
       padding: 10px 15px;
       cursor: pointer;
+      user-select: none;
+      text-decoration: none;
+      color: black;
     }
+  }
+
+  .logo-img {
+    width: 64px;
+    height: 64px;
   }
 }
