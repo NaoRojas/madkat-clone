@@ -5,9 +5,12 @@ import { useContext } from 'react'
 import './navigation.styles.scss'
 import { signOutUser } from '../../utils/firebase/firebase.utils'
 import CartIcon from '../../cart-icon/cart-icon.component'
+import CartDropdown from '../../cart-dropdown/cart-dropdown.component'
+import { CartContext } from '../../context/cart.context'
 
 const Navigation = () => {
   const { currentUser, setCurrentUser } = useContext(UserContext)
+  const { showCartDropdown, toggleShowCartDropdown } = useContext(CartContext)
   console.log(currentUser)
   const signOutHandler = async () => {
     await signOutUser()
@@ -38,8 +41,9 @@ const Navigation = () => {
               Sign In
             </Link>
           )}
-          <CartIcon />
+          <CartIcon toggleCart={toggleShowCartDropdown} />
         </div>
+        {showCartDropdown && <CartDropdown />}
       </div>
       <Outlet />
     </Fragment>
