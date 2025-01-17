@@ -1,32 +1,258 @@
-{
-  "items": [
-    {
-      "name": "MADKAT X '47",
-      "imgUrl": "https://leeos-merch.storage.googleapis.com/media/images/Madkat_x_47.2e16d0ba.fill-700x930-c100.jpg"
-    },
-    {
-      "name": "SPRING MAKES ME GO MAD",
-      "imgUrl": "https://leeos-merch.storage.googleapis.com/media/images/MADKAT_SPRING2024_Web5_1.2e16d0ba.fill-700x930-c100.jpg"
-    },
-    {
-      "name": "MADKAT ON TOUR",
-      "imgUrl": "https://leeos-merch.storage.googleapis.com/media/images/MADKAT_NOV23_MadkatOnTour_Web.2e16d0ba.fill-700x930-c100_nrnZkmp.png"
-    },
-    {
-      "name": "ORIGINALS",
-      "imgUrl": "https://leeos-merch.storage.googleapis.com/media/images/MADKAT_NOV23_Originals_Web3.2e16d0ba.fill-700x930-c100.png"
-    },
-    {
-      "name": "SUDADERAS",
-      "imgUrl": "https://leeos-merch.storage.googleapis.com/media/images/MADKAT_NOV23_Originals_Web_Ho.2e16d0ba.fill-700x930-c100.png"
-    },
-    {
-      "name": "CAMISETAS",
-      "imgUrl": "https://leeos-merch.storage.googleapis.com/media/images/MADKAT_NOV23_Originals_Web_TS.2e16d0ba.fill-700x930-c100.png"
-    },
-    {
-      "name": "ACCESORIOS",
-      "imgUrl": "https://leeos-merch.storage.googleapis.com/media/images/MADKAT_NOV23_Originals_Web_Ac.2e16d0ba.fill-700x930-c100.png"
-    }
-  ]
-}
+[
+  {
+    "name": "MADKAT X 47",
+    "imgUrl": "https: //leeos-merch.storage.googleapis.com/media/images/Madkat_x_47.2e16d0ba.fill-700x930-c100.jpg",
+    "products": [
+      {
+        "name": "MadKat Worldtour - Sudadera",
+        "price": "39.99 €",
+        "imageUrls": [
+          "https://leeos-merch.storage.googleapis.com/media/images/02_C_MADKAT_Sudadera_sin_Capu.2e16d0ba.fill-800x933-c100.jpg",
+          "https://leeos-merch.storage.googleapis.com/media/images/02_C_MADKAT_Sudadera_sin_Capu.2e16d0ba.fill-800x933-c100_C1D5AMC.jpg"
+        ]
+      },
+      {
+        "name": "MadKat Worldtour - Sudadera",
+        "price": "39.99 €",
+        "imageUrls": [
+          "https://leeos-merch.storage.googleapis.com/media/images/02_A_MADKAT_Sudadera_sin_Capu.2e16d0ba.fill-800x933-c100.jpg",
+          "https://leeos-merch.storage.googleapis.com/media/images/02_A_MADKAT_Sudadera_sin_Capu.2e16d0ba.fill-800x933-c100_tnZyJ0c.jpg"
+        ]
+      },
+      {
+        "name": "MadKat Worldtour - Sudadera",
+        "price": "39.99 €",
+        "imageUrls": [
+          "https://leeos-merch.storage.googleapis.com/media/images/MADKAT_NOV23_FCKTHERATZ_Crewn.2e16d0ba.fill-800x933-c100.jpg",
+          "https://leeos-merch.storage.googleapis.com/media/images/MADKAT_NOV23_FCKTHERATZ_Crewn.2e16d0ba.fill-800x933-c100_r93vwQ0.jpg"
+        ]
+      },
+      {
+        "name": "Smiley Kat - Sudadera",
+        "price": "39.99 €",
+        "imageUrls": [
+          "https://leeos-merch.storage.googleapis.com/media/images/Copy_of_29_MADKAT_Sudadera_Si.2e16d0ba.fill-800x933-c100.jpg",
+          "https://leeos-merch.storage.googleapis.com/media/images/Copy_of_29_MADKAT_Sudadera_Si.2e16d0ba.fill-800x933-c100_Msf4vHf.jpg"
+        ]
+      },
+      {
+        "name": "Smiley Kat - Sudadera",
+        "price": "39.99 €",
+        "imageUrls": [
+          "https://leeos-merch.storage.googleapis.com/media/images/MADKAT_NOV23_SMILEYKAT_Crewne.2e16d0ba.fill-800x933-c100_WssXhuf.jpg",
+          "https://leeos-merch.storage.googleapis.com/media/images/MADKAT_NOV23_SMILEYKAT_Crewne.2e16d0ba.fill-800x933-c100.jpg"
+        ]
+      },
+      {
+        "name": "Scratching Worldwide - Hoodie",
+        "price": "42.99 €",
+        "imageUrls": [
+          "https://leeos-merch.storage.googleapis.com/media/images/3_D_MADKAT_Sudadera_con_Capuc.2e16d0ba.fill-800x933-c100.jpg",
+          "https://leeos-merch.storage.googleapis.com/media/images/3_D_MADKAT_Sudadera_con_Capuc.2e16d0ba.fill-800x933-c100_cYop2WR.jpg"
+        ]
+      },
+      {
+        "name": "Scratching Worldwide - Hoodie",
+        "price": "42.99 €",
+        "imageUrls": [
+          "https://leeos-merch.storage.googleapis.com/media/images/03_A_MADKAT_Sudadera_con_Capu.2e16d0ba.fill-800x933-c100.jpg",
+          "https://leeos-merch.storage.googleapis.com/media/images/03_A_MADKAT_Sudadera_con_Capu.2e16d0ba.fill-800x933-c100_rIrQGJp.jpg"
+        ]
+      },
+      {
+        "name": "Fck the Ratz - Hoodie Oversized",
+        "price": "55.99 €",
+        "imageUrls": [
+          "https://leeos-merch.storage.googleapis.com/media/images/01_B_MADKAT_Sudadera_con_Capu.2e16d0ba.fill-800x933-c100.jpg",
+          "https://leeos-merch.storage.googleapis.com/media/images/DSC00167_RESIZED.2e16d0ba.fill-800x933-c100.jpg"
+        ]
+      },
+      {
+        "name": "Scratching Worldwide -  Sudadera",
+        "price": "39.99 €",
+        "imageUrls": [
+          "https://leeos-merch.storage.googleapis.com/media/images/03_B_MADKAT_Sudadera_sin_Capu.2e16d0ba.fill-800x933-c100.jpg",
+          "https://leeos-merch.storage.googleapis.com/media/images/03_B_MADKAT_Sudadera_sin_Capu.2e16d0ba.fill-800x933-c100_6SjNvr8.jpg"
+        ]
+      },
+      {
+        "name": "Fck the Ratz - Hoodie Oversized",
+        "price": "55.99 €",
+        "imageUrls": [
+          "https://leeos-merch.storage.googleapis.com/media/images/01_D_MADKAT_Sudadera_con_Capu.2e16d0ba.fill-800x933-c100_00Vuray.jpg",
+          "https://leeos-merch.storage.googleapis.com/media/images/DSC00197_RESIZED.2e16d0ba.fill-800x933-c100.jpg"
+        ]
+      },
+      {
+        "name": "Fck the Ratz - Hoodie Oversized",
+        "price": "55.99 €",
+        "imageUrls": [
+          "https://leeos-merch.storage.googleapis.com/media/images/01_C_MADKAT_Sudadera_con_Capu.2e16d0ba.fill-800x933-c100.jpg",
+          "https://leeos-merch.storage.googleapis.com/media/images/DSC00145_RESIZED.2e16d0ba.fill-800x933-c100.jpg"
+        ]
+      },
+      {
+        "name": "Originals - Sudadera Bordada",
+        "price": "39.99 €",
+        "imageUrls": [
+          "https://leeos-merch.storage.googleapis.com/media/images/60.2e16d0ba.fill-800x933-c100.jpg",
+          "https://leeos-merch.storage.googleapis.com/media/images/62.2e16d0ba.fill-800x933-c100.jpg"
+        ]
+      },
+      {
+        "name": "Originals - Sudadera Bordada",
+        "price": "39.99 €",
+        "imageUrls": [
+          "https://leeos-merch.storage.googleapis.com/media/images/69.2e16d0ba.fill-800x933-c100.jpg",
+          "https://leeos-merch.storage.googleapis.com/media/images/71.2e16d0ba.fill-800x933-c100.jpg"
+        ]
+      },
+      {
+        "name": "Originals - Sudadera Bordada",
+        "price": "39.99 €",
+        "imageUrls": [
+          "https://leeos-merch.storage.googleapis.com/media/images/63.2e16d0ba.fill-800x933-c100.jpg",
+          "https://leeos-merch.storage.googleapis.com/media/images/65.2e16d0ba.fill-800x933-c100.jpg"
+        ]
+      },
+      {
+        "name": "Originals - Sudadera Bordada",
+        "price": "39.99 €",
+        "imageUrls": [
+          "https://leeos-merch.storage.googleapis.com/media/images/66.2e16d0ba.fill-800x933-c100.jpg",
+          "https://leeos-merch.storage.googleapis.com/media/images/68.2e16d0ba.fill-800x933-c100.jpg"
+        ]
+      },
+      {
+        "name": "Originals - Sudadera Bordada",
+        "price": "39.99 €",
+        "imageUrls": [
+          "https://leeos-merch.storage.googleapis.com/media/images/54.2e16d0ba.fill-800x933-c100.jpg",
+          "https://leeos-merch.storage.googleapis.com/media/images/56.2e16d0ba.fill-800x933-c100.jpg"
+        ]
+      },
+      {
+        "name": "Originals - Sudadera Bordada",
+        "price": "39.99 €",
+        "imageUrls": [
+          "https://leeos-merch.storage.googleapis.com/media/images/57.2e16d0ba.fill-800x933-c100.jpg",
+          "https://leeos-merch.storage.googleapis.com/media/images/59.2e16d0ba.fill-800x933-c100.jpg"
+        ]
+      },
+      {
+        "name": "Originals - Sudadera",
+        "price": "39.99 €",
+        "imageUrls": [
+          "https://leeos-merch.storage.googleapis.com/media/images/27.2e16d0ba.fill-800x933-c100.jpg",
+          "https://leeos-merch.storage.googleapis.com/media/images/29.2e16d0ba.fill-800x933-c100.jpg"
+        ]
+      },
+      {
+        "name": "Originals - Sudadera",
+        "price": "39.99 €",
+        "imageUrls": [
+          "https://leeos-merch.storage.googleapis.com/media/images/33.2e16d0ba.fill-800x933-c100.jpg",
+          "https://leeos-merch.storage.googleapis.com/media/images/35.2e16d0ba.fill-800x933-c100.jpg"
+        ]
+      },
+      {
+        "name": "Originals - Sudadera",
+        "price": "39.99 €",
+        "imageUrls": [
+          "https://leeos-merch.storage.googleapis.com/media/images/30.2e16d0ba.fill-800x933-c100.jpg",
+          "https://leeos-merch.storage.googleapis.com/media/images/32.2e16d0ba.fill-800x933-c100.jpg"
+        ]
+      },
+      {
+        "name": "Originals - Sudadera",
+        "price": "39.99 €",
+        "imageUrls": [
+          "https://leeos-merch.storage.googleapis.com/media/images/36.2e16d0ba.fill-800x933-c100.jpg",
+          "https://leeos-merch.storage.googleapis.com/media/images/38.2e16d0ba.fill-800x933-c100.jpg"
+        ]
+      },
+      {
+        "name": "Originals - Sudadera",
+        "price": "39.99 €",
+        "imageUrls": [
+          "https://leeos-merch.storage.googleapis.com/media/images/21.2e16d0ba.fill-800x933-c100.jpg",
+          "https://leeos-merch.storage.googleapis.com/media/images/23.2e16d0ba.fill-800x933-c100.jpg"
+        ]
+      },
+      {
+        "name": "Originals - Sudadera",
+        "price": "39.99 €",
+        "imageUrls": [
+          "https://leeos-merch.storage.googleapis.com/media/images/24.2e16d0ba.fill-800x933-c100.jpg",
+          "https://leeos-merch.storage.googleapis.com/media/images/26.2e16d0ba.fill-800x933-c100.jpg"
+        ]
+      },
+      {
+        "name": "New Originals - Sudadera",
+        "price": "39.99 €",
+        "imageUrls": [
+          "https://leeos-merch.storage.googleapis.com/media/images/MadKat_BTS22_SIMPLIFICADOX_Su.2e16d0ba.fill-800x933-c100.jpg"
+        ]
+      },
+      {
+        "name": "New Originals - Sudadera",
+        "price": "39.99 €",
+        "imageUrls": [
+          "https://leeos-merch.storage.googleapis.com/media/images/MadKat_BTS22_SIMPLIFICADOX_Su.2e16d0ba.fill-800x933-c100_bz871rw.jpg"
+        ]
+      },
+      {
+        "name": "New Originals - Sudadera",
+        "price": "39.99 €",
+        "imageUrls": [
+          "https://leeos-merch.storage.googleapis.com/media/images/MadKat_BTS22_SIMPLIFICADOX_Su.2e16d0ba.fill-800x933-c100_3LOh4Yf.jpg"
+        ]
+      },
+      {
+        "name": "New Originals v.2 - Sudadera",
+        "price": "39.99 €",
+        "imageUrls": [
+          "https://leeos-merch.storage.googleapis.com/media/images/MadKat_BTS22_SIMPLIFICADOY_Su.2e16d0ba.fill-800x933-c100.jpg"
+        ]
+      },
+      {
+        "name": "New Originals v.2 - Sudadera",
+        "price": "39.99 €",
+        "imageUrls": [
+          "https://leeos-merch.storage.googleapis.com/media/images/MadKat_BTS22_SIMPLIFICADOY_Su.2e16d0ba.fill-800x933-c100_AWggX7W.jpg"
+        ]
+      },
+      {
+        "name": "New Originals v.2 - Sudadera",
+        "price": "39.99 €",
+        "imageUrls": [
+          "https://leeos-merch.storage.googleapis.com/media/images/NewOriginals_grande_Sudadera_.2e16d0ba.fill-800x933-c100.jpg"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "SPRING MAKES ME GO MAD",
+    "imgUrl": "https://leeos-merch.storage.googleapis.com/media/images/MADKAT_SPRING2024_Web5_1.2e16d0ba.fill-700x930-c100.jpg"
+  },
+  {
+    "name": "MADKAT ON TOUR",
+    "imgUrl": "https://leeos-merch.storage.googleapis.com/media/images/MADKAT_NOV23_MadkatOnTour_Web.2e16d0ba.fill-700x930-c100_nrnZkmp.png"
+  },
+  {
+    "name": "ORIGINALS",
+    "imgUrl": "https://leeos-merch.storage.googleapis.com/media/images/MADKAT_NOV23_Originals_Web3.2e16d0ba.fill-700x930-c100.png"
+  },
+  {
+    "name": "SUDADERAS",
+    "imgUrl": "https://leeos-merch.storage.googleapis.com/media/images/MADKAT_NOV23_Originals_Web_Ho.2e16d0ba.fill-700x930-c100.png"
+  },
+  {
+    "name": "CAMISETAS",
+    "imgUrl": "https://leeos-merch.storage.googleapis.com/media/images/MADKAT_NOV23_Originals_Web_TS.2e16d0ba.fill-700x930-c100.png"
+  },
+  {
+    "name": "ACCESORIOS",
+    "imgUrl": "https://leeos-merch.storage.googleapis.com/media/images/MADKAT_NOV23_Originals_Web_Ac.2e16d0ba.fill-700x930-c100.png"
+  }
+]
