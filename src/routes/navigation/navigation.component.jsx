@@ -16,9 +16,16 @@ const Navigation = () => {
   return (
     <Fragment>
       <div className="navigation">
+        <div className="logo-container">
+          <img
+            className="logo-img"
+            src="https://www.madkat.store/images/logo-black.png"
+            alt=""
+          />
+        </div>
         <div className="nav-links-container">
           <Link className="nav-link" to="/shop">
-            SHOP
+            Shop
           </Link>
           {currentUser ? (
             <span className="nav-link" onClick={signOutHandler}>
@@ -26,7 +33,7 @@ const Navigation = () => {
             </span>
           ) : (
             <Link className="nav-link" to="/auth">
-              SIGN IN
+              Sign In
             </Link>
           )}
         </div>
