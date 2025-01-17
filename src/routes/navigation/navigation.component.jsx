@@ -4,6 +4,7 @@ import { UserContext } from '../../context/user.context'
 import { useContext } from 'react'
 import './navigation.styles.scss'
 import { signOutUser } from '../../utils/firebase/firebase.utils'
+import CartIcon from '../../cart-icon/cart-icon.component'
 
 const Navigation = () => {
   const { currentUser, setCurrentUser } = useContext(UserContext)
@@ -27,6 +28,7 @@ const Navigation = () => {
           <Link className="nav-link" to="/shop">
             Shop
           </Link>
+
           {currentUser ? (
             <span className="nav-link" onClick={signOutHandler}>
               Sign Out
@@ -36,6 +38,7 @@ const Navigation = () => {
               Sign In
             </Link>
           )}
+          <CartIcon />
         </div>
       </div>
       <Outlet />
