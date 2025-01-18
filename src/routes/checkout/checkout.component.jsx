@@ -44,7 +44,7 @@ const Checkout = () => {
                     </span>
                   </div>
 
-                  <div className="price">${item.price}</div>
+                  <div className="price">${item.price * item.quantity}</div>
                 </div>
               </div>
             </div>
