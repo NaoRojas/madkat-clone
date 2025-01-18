@@ -6,12 +6,18 @@
   display: flex;
   justify-content: space-between;
   margin-bottom: 25px;
-  padding: 16px 0;
+  padding: 16px 0px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+  background-color: var(--page-bg-color);
 
   .logo-container {
     height: 100%;
     width: 70px;
-    padding: 25px;
+    padding: 0 48px;
   }
 
   .nav-links-container {
@@ -20,6 +26,7 @@
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    padding: 0 24px;
 
     .nav-link {
       padding: 10px 15px;
@@ -34,4 +41,8 @@
     width: 64px;
     height: 64px;
   }
+}
+
+.main {
+  margin-top: 128px;
 }

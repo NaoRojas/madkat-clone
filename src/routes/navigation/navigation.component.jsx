@@ -45,7 +45,9 @@ const Navigation = () => {
         </div>
         {showCartDropdown && <CartDropdown />}
       </div>
-      <Outlet />
+      <div className="main">
+        <Outlet />
+      </div>
     </Fragment>
   )
 }
