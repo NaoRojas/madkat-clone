@@ -5,7 +5,8 @@ import './checkout.styles.scss'
 import Button from '../../components/button/button.component'
 
 const Checkout = () => {
-  const { cartItems, cartTotal } = useContext(CartContext)
+  const { cartItems, cartTotal, removeItem, addToCart } =
+    useContext(CartContext)
   return (
     <div className="checkout">
       <h1>Checkout</h1>
@@ -18,11 +19,26 @@ const Checkout = () => {
               <div className="item-details">
                 <div className="header">
                   <span className="name">{item.name}</span>
-                  <span>x</span>
+                  <span className="material-icons">close</span>
                 </div>
 
                 <div className="footer">
-                  <span className="quantity">Quantity: {item.quantity}</span>
+                  <div className="quantity-conatiner">
+                    <span
+                      className="material-icons"
+                      onClick={() => removeItem(item)}
+                    >
+                      arrow_back_ios
+                    </span>
+                    <span className="quantity">{item.quantity}</span>
+                    <span
+                      className="material-icons"
+                      onClick={() => addToCart(item)}
+                    >
+                      arrow_forward_ios
+                    </span>
+                  </div>
+
                   <div className="price">{item.price}</div>
                 </div>
               </div>

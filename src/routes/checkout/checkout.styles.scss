@@ -72,6 +72,7 @@
 
 .quantity {
   font-size: 14px;
+  font-weight: var(--text-medium);
 }
 
 .cart-items {
@@ -83,4 +84,20 @@
 
 .pay-now-btn {
   margin-top: 24px;
+}
+
+.quantity-conatiner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 24px;
+  .quantity {
+    margin: 0 8px;
+  }
+}
+
+.material-icons {
+  font-size: 24px;
+  cursor: pointer;
+  user-select: none;
 }
