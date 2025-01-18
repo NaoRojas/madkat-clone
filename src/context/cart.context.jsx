@@ -6,6 +6,7 @@ export const CartContext = createContext({
   showCartDropdown: false,
   toggleShowCartDropdown: () => null,
   removeItem: () => null,
+  clearItemFromCart: () => null,
 })
 
 export const CartProvider = ({ children }) => {
@@ -48,6 +49,10 @@ export const CartProvider = ({ children }) => {
     }
   }
 
+  const clearItemFromCart = (item) => {
+    setCartItems(cartItems.filter((cartItem) => cartItem.id !== item.id))
+  }
+
   const value = {
     cartItems,
     setCartItems,
@@ -55,6 +60,7 @@ export const CartProvider = ({ children }) => {
     toggleShowCartDropdown,
     addToCart,
     removeItem,
+    clearItemFromCart,
   }
 
   return <CartContext.Provider value={value}>{children}</CartContext.Provider>
