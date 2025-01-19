@@ -8,19 +8,28 @@ const Category = () => {
   const { category } = useParams()
   const { categories } = useContext(CategoriesContext)
   const [products, setProducts] = useState([])
+  console.log(products, 'products')
+  console.log(category, 'category')
+  console.log(categories, 'categories')
 
   useEffect(() => {
-    setProducts(categories[category].products)
+    setProducts(categories.find((cat) => cat.category === category).products)
   }, [category, categories])
 
   return (
     <>
-      <h2>{category}</h2>
-      <div className="product-list">
-        {products.map((product) => (
-          <ProductCard key={product.id} product={product} />
-        ))}
-      </div>
+      {products.length ? (
+        <>
+          <h2>{category}</h2>
+          <div className="product-list">
+            {products.map((product) => (
+              <ProductCard key={product.id} product={product} />
+            ))}
+          </div>
+        </>
+      ) : (
+        <h2>No products found</h2>
+      )}
     </>
   )
 }
