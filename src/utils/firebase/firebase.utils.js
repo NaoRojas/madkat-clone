@@ -42,13 +42,13 @@ export const addCollectionAndDocuments = async (collectionKey, objectsToAdd) => 
   const batch = writeBatch(db);
 
   objectsToAdd.forEach((obj) => {
-    const newDocRef = doc(collectionRef);
+    const newDocRef = doc(collectionRef, obj.name.toLowerCase());
     batch.set(newDocRef, obj);
   }
   );
 
   return await batch.commit();
-
+  console.log('collection added');
 };
 
 export const createUserDocumentFromAuth = async (
