@@ -8,9 +8,6 @@ const Category = () => {
   const { category } = useParams()
   const { categories } = useContext(CategoriesContext)
   const [products, setProducts] = useState([])
-  console.log(products, 'products')
-  console.log(category, 'category')
-  console.log(categories, 'categories')
 
   useEffect(() => {
     setProducts(categories.find((cat) => cat.category === category).products)
