@@ -3,13 +3,20 @@ import { CategoriesContext } from '../../context/categories.context'
 import ProductCard from '../../components/product-card/product-card.component'
 import './shop.styles.scss'
 const Shop = () => {
-  const {} = useContext(CategoriesContext)
+  const { categories } = useContext(CategoriesContext)
   return (
-    <div className="product-list">
-      {/* {products[0].products.map((product) => (
-        <ProductCard key={product.id} product={product} />
-      ))} */}
-    </div>
+    <>
+      {Object.keys(categories).map((category) => (
+        <>
+          <h2>{category}</h2>
+          <div className="product-list">
+            {categories[category].products.map((product) => (
+              <ProductCard key={product.id} product={product} />
+            ))}
+          </div>
+        </>
+      ))}
+    </>
   )
 }
 
