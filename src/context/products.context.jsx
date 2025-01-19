@@ -1,6 +1,6 @@
 import React, { createContext, useState, useEffect, use } from 'react'
 import SHOP_DATA from '../data/categories.json'
-import { addCollectionAndDocuments } from '../utils/firebase/firebase.utils'
+// import { addCollectionAndDocuments } from '../utils/firebase/firebase.utils'
 
 export const ProductsContext = createContext({
   products: [],

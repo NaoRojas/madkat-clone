@@ -48,7 +48,6 @@ export const addCollectionAndDocuments = async (collectionKey, objectsToAdd) => 
   );
 
   return await batch.commit();
-  console.log('collection added');
 };
 
 export const createUserDocumentFromAuth = async (
