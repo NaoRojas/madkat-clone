@@ -9,7 +9,7 @@ import {
   signOut,
   onAuthStateChanged,
 } from 'firebase/auth';
-import { getFirestore, doc, getDoc, setDoc, collection, writeBatch } from 'firebase/firestore';
+import { getFirestore, doc, getDoc, setDoc, collection, writeBatch, query, getDocs } from 'firebase/firestore';
 
 const firebaseConfig = {
   apiKey: "AIzaSyBwaWTKGmbkKx74QlYXxQ0WGR3opr5bdE4",
@@ -48,6 +48,20 @@ export const addCollectionAndDocuments = async (collectionKey, objectsToAdd) => 
   );
 
   return await batch.commit();
+};
+
+export const getCategoriesAndDocuments = async () => {
+  const collectionRef = collection(db, 'categories');
+  const querySnapshot = await getDocs(collectionRef);
+  const categories = {};
+
+  querySnapshot.forEach((doc) => {
+    categories[doc.id] = {
+      ...doc.data(),
+    }
+  });
+
+  return categories;
 };
 
 export const createUserDocumentFromAuth = async (

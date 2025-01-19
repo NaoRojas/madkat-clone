@@ -1,0 +1,10 @@
+@import url("../../styles/styles.scss");
+.product-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 1.625em;
+  -moz-column-gap: 1.625em;
+  column-gap: 1.625em;
+  grid-row-gap: 2.75em;
+  row-gap: 2.75em;
+}
