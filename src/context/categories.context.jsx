@@ -20,8 +20,14 @@ export const CategoriesProvider = ({ children }) => {
   useEffect(() => {
     const fetchCategories = async () => {
       const categories = await getCategoriesAndDocuments()
-      console.log(categories, 'categories')
-      setCategories(categories)
+      const categoriesToArray = Object.entries(categories).map(
+        ([key, value]) => ({
+          category: key,
+          ...value,
+        })
+      )
+      setCategories(categoriesToArray)
+      console.log(categoriesToArray)
     }
     fetchCategories()
   }, [])

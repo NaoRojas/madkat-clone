@@ -1,10 +1,10 @@
 import './category-item.styles.scss'
 
 const CategoryItem = ({ category }) => {
-  const { imageUrl, name } = category
+  const { imgUrl, name } = category
   return (
     <div className="category-container">
-      <img src={imageUrl} alt="" />
+      <img src={imgUrl} alt="" />
       <div className="collectionListItem__info">
         <div className="collectionListItem__inner">
           <div className="collectionListItem__padding">
