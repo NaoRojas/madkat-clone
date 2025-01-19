@@ -10,7 +10,7 @@ import { CartContext } from '../../context/cart.context'
 
 const Navigation = () => {
   const { currentUser, setCurrentUser } = useContext(UserContext)
-  const { showCartDropdown, toggleShowCartDropdown } = useContext(CartContext)
+  const { isCartOpen, toggleCartHidden } = useContext(CartContext)
   console.log(currentUser)
   const signOutHandler = async () => {
     await signOutUser()
@@ -43,9 +43,9 @@ const Navigation = () => {
               Sign In
             </Link>
           )}
-          <CartIcon toggleCart={toggleShowCartDropdown} />
+          <CartIcon toggleCart={toggleCartHidden} />
         </div>
-        {showCartDropdown && <CartDropdown />}
+        {isCartOpen && <CartDropdown />}
       </div>
       <div className="main">
         <Outlet />

@@ -5,11 +5,11 @@ import { useContext } from 'react'
 import CartItem from '../cart-item/cart-item.component'
 import { useNavigate } from 'react-router-dom'
 const CartDropdown = () => {
-  const { cartItems, toggleShowCartDropdown } = useContext(CartContext)
+  const { cartItems, toggleCartHidden } = useContext(CartContext)
   const navigate = useNavigate()
   const navigateToCheckout = () => {
     navigate('/checkout')
-    toggleShowCartDropdown()
+    toggleCartHidden()
   }
   return (
     <div className="cart-dropdown-container">
