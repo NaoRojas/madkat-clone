@@ -2,7 +2,7 @@
 
 .directory-container {
   width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2.5em;
 }

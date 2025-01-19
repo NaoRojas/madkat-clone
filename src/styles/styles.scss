@@ -46,3 +46,54 @@
   --layout-gap: 60px;
   --collection-items-per-row: 4;
 }
+
+:root {
+  font-family: "Rubik", serif;
+  font-optical-sizing: auto;
+}
+
+@font-face {
+  font-family: "Termina";
+  src: url("../../src/assets/fonts/Termina/TerminaTest-Light.otf") format("opentype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Termina";
+  src: url("../../src/assets/fonts/Termina/TerminaTest-Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Termina";
+  src: url("../../src/assets/fonts/Termina/TerminaTest-Medium.otf") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Termina";
+  src: url("../../src/assets/fonts/Termina/TerminaTest-Bold.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Termina";
+  src: url("../../src/assets/fonts/Termina/TerminaTest-Heavy.otf") format("opentype");
+  font-weight: 800;
+  font-style: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Termina", sans-serif;
+  font-weight: 800;
+  line-height: 1.25;
+}

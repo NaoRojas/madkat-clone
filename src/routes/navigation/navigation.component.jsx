@@ -4,9 +4,13 @@ import { UserContext } from '../../context/user.context'
 import { useContext } from 'react'
 import './navigation.styles.scss'
 import { signOutUser } from '../../utils/firebase/firebase.utils'
+import CartIcon from '../../components/cart-icon/cart-icon.component'
+import CartDropdown from '../../components/cart-dropdown/cart-dropdown.component'
+import { CartContext } from '../../context/cart.context'
 
 const Navigation = () => {
   const { currentUser, setCurrentUser } = useContext(UserContext)
+  const { showCartDropdown, toggleShowCartDropdown } = useContext(CartContext)
   console.log(currentUser)
   const signOutHandler = async () => {
     await signOutUser()
@@ -17,16 +21,19 @@ const Navigation = () => {
     <Fragment>
       <div className="navigation">
         <div className="logo-container">
-          <img
-            className="logo-img"
-            src="https://www.madkat.store/images/logo-black.png"
-            alt=""
-          />
+          <Link to="/">
+            <img
+              className="logo-img"
+              src="https://www.madkat.store/images/logo-black.png"
+              alt=""
+            />
+          </Link>
         </div>
         <div className="nav-links-container">
           <Link className="nav-link" to="/shop">
             Shop
           </Link>
+
           {currentUser ? (
             <span className="nav-link" onClick={signOutHandler}>
               Sign Out
@@ -36,9 +43,13 @@ const Navigation = () => {
               Sign In
             </Link>
           )}
+          <CartIcon toggleCart={toggleShowCartDropdown} />
         </div>
+        {showCartDropdown && <CartDropdown />}
       </div>
-      <Outlet />
+      <div className="main">
+        <Outlet />
+      </div>
     </Fragment>
   )
 }
