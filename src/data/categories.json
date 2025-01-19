@@ -50,7 +50,7 @@
       },
       {
         "name": "Scratching Worldwide - Hoodie",
-        "price": "42.99",
+        "price": 42.99,
         "imageUrls": [
           "https://leeos-merch.storage.googleapis.com/media/images/3_D_MADKAT_Sudadera_con_Capuc.2e16d0ba.fill-800x933-c100.jpg",
           "https://leeos-merch.storage.googleapis.com/media/images/3_D_MADKAT_Sudadera_con_Capuc.2e16d0ba.fill-800x933-c100_cYop2WR.jpg"
@@ -59,7 +59,7 @@
       },
       {
         "name": "Scratching Worldwide - Hoodie",
-        "price": "42.99",
+        "price": 42.99,
         "imageUrls": [
           "https://leeos-merch.storage.googleapis.com/media/images/03_A_MADKAT_Sudadera_con_Capu.2e16d0ba.fill-800x933-c100.jpg",
           "https://leeos-merch.storage.googleapis.com/media/images/03_A_MADKAT_Sudadera_con_Capu.2e16d0ba.fill-800x933-c100_rIrQGJp.jpg"
@@ -68,7 +68,7 @@
       },
       {
         "name": "Fck the Ratz - Hoodie Oversized",
-        "price": "55.99",
+        "price": 55.99,
         "imageUrls": [
           "https://leeos-merch.storage.googleapis.com/media/images/01_B_MADKAT_Sudadera_con_Capu.2e16d0ba.fill-800x933-c100.jpg",
           "https://leeos-merch.storage.googleapis.com/media/images/DSC00167_RESIZED.2e16d0ba.fill-800x933-c100.jpg"
@@ -86,7 +86,7 @@
       },
       {
         "name": "Fck the Ratz - Hoodie Oversized",
-        "price": "55.99",
+        "price": 55.99,
         "imageUrls": [
           "https://leeos-merch.storage.googleapis.com/media/images/01_D_MADKAT_Sudadera_con_Capu.2e16d0ba.fill-800x933-c100_00Vuray.jpg",
           "https://leeos-merch.storage.googleapis.com/media/images/DSC00197_RESIZED.2e16d0ba.fill-800x933-c100.jpg"
@@ -95,7 +95,7 @@
       },
       {
         "name": "Fck the Ratz - Hoodie Oversized",
-        "price": "55.99",
+        "price": 55.99,
         "imageUrls": [
           "https://leeos-merch.storage.googleapis.com/media/images/01_C_MADKAT_Sudadera_con_Capu.2e16d0ba.fill-800x933-c100.jpg",
           "https://leeos-merch.storage.googleapis.com/media/images/DSC00145_RESIZED.2e16d0ba.fill-800x933-c100.jpg"
@@ -262,26 +262,923 @@
   },
   {
     "name": "SPRING MAKES ME GO MAD",
-    "imgUrl": "https://leeos-merch.storage.googleapis.com/media/images/MADKAT_SPRING2024_Web5_1.2e16d0ba.fill-700x930-c100.jpg"
+    "imgUrl": "https://leeos-merch.storage.googleapis.com/media/images/MADKAT_SPRING2024_Web5_1.2e16d0ba.fill-700x930-c100.jpg",
+    "products": [
+      {
+        "name": "Loves me, loves me not - Camiseta \"Relax Fit\"",
+        "price": 34.99,
+        "imageUrls": [
+          "https://leeos-merch.storage.googleapis.com/media/images/MADKAT_SPRING2024_FlowerMadne.2e16d0ba.fill-800x933-c100.jpg",
+          "https://leeos-merch.storage.googleapis.com/media/images/MADKAT_SPRING2024_FlowerMadne.2e16d0ba.fill-800x933-c100_Wz2q5MS.jpg"
+        ],
+        "id": "e957e200-f905-41dc-96c7-bff031f6929a"
+      },
+      {
+        "name": "Loves me, loves me not - Camiseta \"Relax Fit\"",
+        "price": 34.99,
+        "imageUrls": [
+          "https://leeos-merch.storage.googleapis.com/media/images/MADKAT_SPRING2024_FlowerMadne.2e16d0ba.fill-800x933-c100_0BrfF7N.jpg",
+          "https://leeos-merch.storage.googleapis.com/media/images/MADKAT_SPRING2024_FlowerMadne.2e16d0ba.fill-800x933-c100_xJvt3E7.jpg"
+        ],
+        "id": "a1dcd4a7-6a01-4df7-a376-386be8cc70b5"
+      },
+      {
+        "name": "Loves me, loves me not - Hoodie",
+        "price": 42.99,
+        "imageUrls": [
+          "https://leeos-merch.storage.googleapis.com/media/images/MADKAT_SPRING2024_FlowerMadne.2e16d0ba.fill-800x933-c100_NW0ijnD.jpg",
+          "https://leeos-merch.storage.googleapis.com/media/images/MADKAT_SPRING2024_FlowerMadne.2e16d0ba.fill-800x933-c100_ry0IDpY.jpg"
+        ],
+        "id": "a2baa798-0dcf-4b26-bd42-b99fdb089134"
+      },
+      {
+        "name": "Loves me, loves me not - Hoodie",
+        "price": 42.99,
+        "imageUrls": [
+          "https://leeos-merch.storage.googleapis.com/media/images/MADKAT_SPRING2024_FlowerMadne.2e16d0ba.fill-800x933-c100_18poGHb.jpg",
+          "https://leeos-merch.storage.googleapis.com/media/images/MADKAT_SPRING2024_FlowerMadne.2e16d0ba.fill-800x933-c100_GCesSm4.jpg"
+        ],
+        "id": "9d6ac68e-883d-4a08-ba2d-383b9b4d945c"
+      },
+      {
+        "name": "Mr. Kat - Camiseta \"Relax Fit\"",
+        "price": 34.99,
+        "imageUrls": [
+          "https://leeos-merch.storage.googleapis.com/media/images/MADKAT_SPRING2024_MrKat_TShir.2e16d0ba.fill-800x933-c100_Kqnswup.jpg",
+          "https://leeos-merch.storage.googleapis.com/media/images/MADKAT_SPRING2024_MrKat_TShir.2e16d0ba.fill-800x933-c100.jpg"
+        ],
+        "id": "7dfd08d8-d94d-4743-a053-544dcd55c5d8"
+      },
+      {
+        "name": "Mr. Kat - Camiseta \"Relax Fit\"",
+        "price": 34.99,
+        "imageUrls": [
+          "https://leeos-merch.storage.googleapis.com/media/images/MADKAT_SPRING2024_MrKat_TShir.2e16d0ba.fill-800x933-c100_1r30jr2.jpg",
+          "https://leeos-merch.storage.googleapis.com/media/images/MADKAT_SPRING2024_MrKat_TShir.2e16d0ba.fill-800x933-c100_kGaEGg5.jpg"
+        ],
+        "id": "1d36a25a-faa6-4b7c-92c5-990fc9110db5"
+      },
+      {
+        "name": "Mr. Kat - Camiseta \"Relax Fit\"",
+        "price": 34.99,
+        "imageUrls": [
+          "https://leeos-merch.storage.googleapis.com/media/images/MADKAT_SPRING2024_MrKat_TShir.2e16d0ba.fill-800x933-c100_HFiUEWR.jpg",
+          "https://leeos-merch.storage.googleapis.com/media/images/MADKAT_SPRING2024_MrKat_TShir.2e16d0ba.fill-800x933-c100_Mja08I0.jpg"
+        ],
+        "id": "1a69ef57-9080-46f3-937f-03c056bdf655"
+      },
+      {
+        "name": "Mr. Kat - Camiseta \"Relax Fit\"",
+        "price": 34.99,
+        "imageUrls": [
+          "https://leeos-merch.storage.googleapis.com/media/images/MADKAT_SPRING2024_MrKat_TShir.2e16d0ba.fill-800x933-c100_YmnEvvn.jpg",
+          "https://leeos-merch.storage.googleapis.com/media/images/MADKAT_SPRING2024_MrKat_TShir.2e16d0ba.fill-800x933-c100_KVVU5yL.jpg"
+        ],
+        "id": "208e2ce5-0005-45f5-b3de-6e7e9a1887ca"
+      },
+      {
+        "name": "Mr. Kat - Hoodie",
+        "price": 42.99,
+        "imageUrls": [
+          "https://leeos-merch.storage.googleapis.com/media/images/MADKAT_SPRING2024_MrKat_Hoodi.2e16d0ba.fill-800x933-c100.jpg",
+          "https://leeos-merch.storage.googleapis.com/media/images/MADKAT_SPRING2024_MrKat_Hoodi.2e16d0ba.fill-800x933-c100_YOCEBvJ.jpg"
+        ],
+        "id": "0cd2435b-e064-460f-81c4-e2da9f945ac1"
+      },
+      {
+        "name": "Mr. Kat - Hoodie",
+        "price": 42.99,
+        "imageUrls": [
+          "https://leeos-merch.storage.googleapis.com/media/images/MADKAT_SPRING2024_MrKat_Hoodi.2e16d0ba.fill-800x933-c100_Io6czaO.jpg",
+          "https://leeos-merch.storage.googleapis.com/media/images/MADKAT_SPRING2024_MrKat_Hoodi.2e16d0ba.fill-800x933-c100_kOhO3wY.jpg"
+        ],
+        "id": "b9de1852-9f93-4ca2-a50e-df5aabb71130"
+      },
+      {
+        "name": "Mr. Kat - Hoodie",
+        "price": 42.99,
+        "imageUrls": [
+          "https://leeos-merch.storage.googleapis.com/media/images/MADKAT_SPRING2024_MrKat_Hoodi.2e16d0ba.fill-800x933-c100_HG8YC90.jpg",
+          "https://leeos-merch.storage.googleapis.com/media/images/MADKAT_SPRING2024_MrKat_Hoodi.2e16d0ba.fill-800x933-c100_pf3mRT5.jpg"
+        ],
+        "id": "66c0675c-aac5-43b4-b91b-df39173bf944"
+      },
+      {
+        "name": "Mr. Kat - Hoodie",
+        "price": 42.99,
+        "imageUrls": [
+          "https://leeos-merch.storage.googleapis.com/media/images/MADKAT_SPRING2024_MrKat_Hoodi.2e16d0ba.fill-800x933-c100_NeORKgV.jpg",
+          "https://leeos-merch.storage.googleapis.com/media/images/MADKAT_SPRING2024_MrKat_Hoodi.2e16d0ba.fill-800x933-c100_3fv9eHc.jpg"
+        ],
+        "id": "dd40ad91-73dc-4558-863b-5459c36a3b89"
+      }
+    ]
   },
   {
     "name": "MADKAT ON TOUR",
-    "imgUrl": "https://leeos-merch.storage.googleapis.com/media/images/MADKAT_NOV23_MadkatOnTour_Web.2e16d0ba.fill-700x930-c100_nrnZkmp.png"
+    "imgUrl": "https://leeos-merch.storage.googleapis.com/media/images/MADKAT_NOV23_MadkatOnTour_Web.2e16d0ba.fill-700x930-c100_nrnZkmp.png",
+    "products": [
+      {
+        "name": "Fck the Ratz - Camiseta",
+        "price": 26.99,
+        "imageUrls": [
+          "https://leeos-merch.storage.googleapis.com/media/images/MADKAT_NOV23_FCKTHERATZ_Camis.2e16d0ba.fill-800x933-c100.jpg",
+          "https://leeos-merch.storage.googleapis.com/media/images/DSC00133_RESIZED.2e16d0ba.fill-800x933-c100.jpg"
+        ],
+        "id": "005d8038-1346-4923-8030-b20da1005a56"
+      },
+      {
+        "name": "Fck the Ratz - Camiseta",
+        "price": 26.99,
+        "imageUrls": [
+          "https://leeos-merch.storage.googleapis.com/media/images/01_A_MADKAT_Camiseta_Creator_.2e16d0ba.fill-800x933-c100.jpg",
+          "https://leeos-merch.storage.googleapis.com/media/images/DSC00160_RESIZED.2e16d0ba.fill-800x933-c100.jpg"
+        ],
+        "id": "fc7a243d-ff27-4da7-b93c-528b4cd10190"
+      },
+      {
+        "name": "Fck the Ratz - Camiseta",
+        "price": 26.99,
+        "imageUrls": [
+          "https://leeos-merch.storage.googleapis.com/media/images/01_D_MADKAT_Camiseta_Creator_.2e16d0ba.fill-800x933-c100.jpg",
+          "https://leeos-merch.storage.googleapis.com/media/images/DSC00186_RESIZED.2e16d0ba.fill-800x933-c100.jpg"
+        ],
+        "id": "0dac941d-65d8-438d-a441-a00dfbb13181"
+      },
+      {
+        "name": "Fck the Ratz - Hoodie Oversized",
+        "price": 55.99,
+        "imageUrls": [
+          "https://leeos-merch.storage.googleapis.com/media/images/01_B_MADKAT_Sudadera_con_Capu.2e16d0ba.fill-800x933-c100.jpg",
+          "https://leeos-merch.storage.googleapis.com/media/images/DSC00167_RESIZED.2e16d0ba.fill-800x933-c100.jpg"
+        ],
+        "id": "19f957bb-e401-4ddb-b8b9-6500374a5076"
+      },
+      {
+        "name": "Fck the Ratz - Hoodie Oversized",
+        "price": 55.99,
+        "imageUrls": [
+          "https://leeos-merch.storage.googleapis.com/media/images/01_C_MADKAT_Sudadera_con_Capu.2e16d0ba.fill-800x933-c100.jpg",
+          "https://leeos-merch.storage.googleapis.com/media/images/DSC00145_RESIZED.2e16d0ba.fill-800x933-c100.jpg"
+        ],
+        "id": "89e1ee5b-7006-4e13-b395-c32d2dc0c9bc"
+      },
+      {
+        "name": "Fck the Ratz - Hoodie Oversized",
+        "price": 55.99,
+        "imageUrls": [
+          "https://leeos-merch.storage.googleapis.com/media/images/01_D_MADKAT_Sudadera_con_Capu.2e16d0ba.fill-800x933-c100_00Vuray.jpg",
+          "https://leeos-merch.storage.googleapis.com/media/images/DSC00197_RESIZED.2e16d0ba.fill-800x933-c100.jpg"
+        ],
+        "id": "456e4357-4b20-42e6-8fd3-94aa5c08e84d"
+      },
+      {
+        "name": "Fck the Ratz - Camiseta Oversized",
+        "price": 39.99,
+        "imageUrls": [
+          "https://leeos-merch.storage.googleapis.com/media/images/01_E_MADKAT_Camiseta_Manga_La.2e16d0ba.fill-800x933-c100.jpg",
+          "https://leeos-merch.storage.googleapis.com/media/images/DSC00203_RESIZED.2e16d0ba.fill-800x933-c100.jpg"
+        ],
+        "id": "9f62cb25-ba42-41db-b85c-0918c754c234"
+      },
+      {
+        "name": "MadKat Worldtour - Camiseta",
+        "price": 26.99,
+        "imageUrls": [
+          "https://leeos-merch.storage.googleapis.com/media/images/MADKAT_NOV23_WORLDTOUR_Camise.2e16d0ba.fill-800x933-c100.jpg",
+          "https://leeos-merch.storage.googleapis.com/media/images/MADKAT_NOV23_WORLDTOUR_Camise.2e16d0ba.fill-800x933-c100_N8UfcOR.jpg"
+        ],
+        "id": "81664f03-4853-4722-8849-7e3011e6ced6"
+      },
+      {
+        "name": "MadKat Worldtour - Camiseta",
+        "price": 26.99,
+        "imageUrls": [
+          "https://leeos-merch.storage.googleapis.com/media/images/02_C_MADKAT_Camiseta_Creator_.2e16d0ba.fill-800x933-c100.jpg",
+          "https://leeos-merch.storage.googleapis.com/media/images/02_C_MADKAT_Camiseta_Creator_.2e16d0ba.fill-800x933-c100_LHnwg3I.jpg"
+        ],
+        "id": "e2dbcd23-8c02-48f3-be5f-8bf68cfa15d2"
+      },
+      {
+        "name": "MadKat Worldtour - Camiseta",
+        "price": 26.99,
+        "imageUrls": [
+          "https://leeos-merch.storage.googleapis.com/media/images/02_A_MADKAT_Camiseta_Creator_.2e16d0ba.fill-800x933-c100.jpg",
+          "https://leeos-merch.storage.googleapis.com/media/images/02_A_MADKAT_Camiseta_Creator_.2e16d0ba.fill-800x933-c100_fqS4qkB.jpg"
+        ],
+        "id": "3901d36b-bafc-4837-8a76-54dddb519ee3"
+      },
+      {
+        "name": "MadKat Worldtour - Sudadera",
+        "price": 39.99,
+        "imageUrls": [
+          "https://leeos-merch.storage.googleapis.com/media/images/MADKAT_NOV23_FCKTHERATZ_Crewn.2e16d0ba.fill-800x933-c100.jpg",
+          "https://leeos-merch.storage.googleapis.com/media/images/MADKAT_NOV23_FCKTHERATZ_Crewn.2e16d0ba.fill-800x933-c100_r93vwQ0.jpg"
+        ],
+        "id": "09e48068-48d5-42a4-ab1e-ed27bab7d2bb"
+      },
+      {
+        "name": "MadKat Worldtour - Sudadera",
+        "price": 39.99,
+        "imageUrls": [
+          "https://leeos-merch.storage.googleapis.com/media/images/02_A_MADKAT_Sudadera_sin_Capu.2e16d0ba.fill-800x933-c100.jpg",
+          "https://leeos-merch.storage.googleapis.com/media/images/02_A_MADKAT_Sudadera_sin_Capu.2e16d0ba.fill-800x933-c100_tnZyJ0c.jpg"
+        ],
+        "id": "1be07c9a-0b8f-44bd-ae31-d608f858cb07"
+      },
+      {
+        "name": "MadKat Worldtour - Sudadera",
+        "price": 39.99,
+        "imageUrls": [
+          "https://leeos-merch.storage.googleapis.com/media/images/02_C_MADKAT_Sudadera_sin_Capu.2e16d0ba.fill-800x933-c100.jpg",
+          "https://leeos-merch.storage.googleapis.com/media/images/02_C_MADKAT_Sudadera_sin_Capu.2e16d0ba.fill-800x933-c100_C1D5AMC.jpg"
+        ],
+        "id": "5e4ac7ff-0bd2-4e29-91fb-7b6a89d44864"
+      },
+      {
+        "name": "Scratching Worldwide - Camiseta Relaxed Fit",
+        "price": 34.99,
+        "imageUrls": [
+          "https://leeos-merch.storage.googleapis.com/media/images/03_A_MADKAT_Camiseta_Relax_Te.2e16d0ba.fill-800x933-c100.jpg",
+          "https://leeos-merch.storage.googleapis.com/media/images/03_A_MADKAT_Camiseta_Relax_Te.2e16d0ba.fill-800x933-c100_IQF88mU.jpg"
+        ],
+        "id": "303cd55d-c9a6-449d-bf3c-57a7c9916bf2"
+      },
+      {
+        "name": "Scratching Worldwide - Camiseta Relaxed Fit",
+        "price": 34.99,
+        "imageUrls": [
+          "https://leeos-merch.storage.googleapis.com/media/images/03_A_MADKAT_Camiseta_Relax_Te.2e16d0ba.fill-800x933-c100_Dvay9tA.jpg",
+          "https://leeos-merch.storage.googleapis.com/media/images/03_A_MADKAT_Camiseta_Relax_Te.2e16d0ba.fill-800x933-c100_xPOTXO2.jpg"
+        ],
+        "id": "a114f0bb-952e-4ad5-b6bf-56ae2ae60f52"
+      },
+      {
+        "name": "Scratching Worldwide -  Sudadera",
+        "price": 39.99,
+        "imageUrls": [
+          "https://leeos-merch.storage.googleapis.com/media/images/03_B_MADKAT_Sudadera_sin_Capu.2e16d0ba.fill-800x933-c100.jpg",
+          "https://leeos-merch.storage.googleapis.com/media/images/03_B_MADKAT_Sudadera_sin_Capu.2e16d0ba.fill-800x933-c100_6SjNvr8.jpg"
+        ],
+        "id": "b4cf9e62-62e9-4543-a4ab-ad5f0c04ba55"
+      },
+      {
+        "name": "Scratching Worldwide - Hoodie",
+        "price": 42.99,
+        "imageUrls": [
+          "https://leeos-merch.storage.googleapis.com/media/images/03_A_MADKAT_Sudadera_con_Capu.2e16d0ba.fill-800x933-c100.jpg",
+          "https://leeos-merch.storage.googleapis.com/media/images/03_A_MADKAT_Sudadera_con_Capu.2e16d0ba.fill-800x933-c100_rIrQGJp.jpg"
+        ],
+        "id": "91ed7c98-9272-4233-b916-f00056a2476e"
+      },
+      {
+        "name": "Scratching Worldwide - Hoodie",
+        "price": 42.99,
+        "imageUrls": [
+          "https://leeos-merch.storage.googleapis.com/media/images/3_D_MADKAT_Sudadera_con_Capuc.2e16d0ba.fill-800x933-c100.jpg",
+          "https://leeos-merch.storage.googleapis.com/media/images/3_D_MADKAT_Sudadera_con_Capuc.2e16d0ba.fill-800x933-c100_cYop2WR.jpg"
+        ],
+        "id": "506a1776-2f7f-493c-939f-875fab7bfa43"
+      },
+      {
+        "name": "Smiley Kat - Camiseta",
+        "price": 26.99,
+        "imageUrls": [
+          "https://leeos-merch.storage.googleapis.com/media/images/Copy_of_25_MADKAT_Camiseta_Cr.2e16d0ba.fill-800x933-c100.jpg",
+          "https://leeos-merch.storage.googleapis.com/media/images/Copy_of_25_MADKAT_Camiseta_Cr.2e16d0ba.fill-800x933-c100_8ZwWKRd.jpg"
+        ],
+        "id": "5ee2af1c-6514-480b-8a66-c45376353857"
+      },
+      {
+        "name": "Smiley Kat - Camiseta",
+        "price": 26.99,
+        "imageUrls": [
+          "https://leeos-merch.storage.googleapis.com/media/images/Copy_of_27_MADKAT_Camiseta_Cr.2e16d0ba.fill-800x933-c100.jpg",
+          "https://leeos-merch.storage.googleapis.com/media/images/Copy_of_27_MADKAT_Camiseta_Cr.2e16d0ba.fill-800x933-c100_LV5G5Mz.jpg"
+        ],
+        "id": "2278eb36-19e4-4b6e-9963-8a89d253a9c2"
+      },
+      {
+        "name": "Smiley Kat - Sudadera",
+        "price": 39.99,
+        "imageUrls": [
+          "https://leeos-merch.storage.googleapis.com/media/images/Copy_of_29_MADKAT_Sudadera_Si.2e16d0ba.fill-800x933-c100.jpg",
+          "https://leeos-merch.storage.googleapis.com/media/images/Copy_of_29_MADKAT_Sudadera_Si.2e16d0ba.fill-800x933-c100_Msf4vHf.jpg"
+        ],
+        "id": "b78f152f-a1f7-4ce7-8bf2-200b4aa2a297"
+      },
+      {
+        "name": "Smiley Kat - Sudadera",
+        "price": 39.99,
+        "imageUrls": [
+          "https://leeos-merch.storage.googleapis.com/media/images/MADKAT_NOV23_SMILEYKAT_Crewne.2e16d0ba.fill-800x933-c100_WssXhuf.jpg",
+          "https://leeos-merch.storage.googleapis.com/media/images/MADKAT_NOV23_SMILEYKAT_Crewne.2e16d0ba.fill-800x933-c100.jpg"
+        ],
+        "id": "799ad1dc-bf27-459d-ba6c-60c0740a7501"
+      }
+    ]
   },
   {
     "name": "ORIGINALS",
-    "imgUrl": "https://leeos-merch.storage.googleapis.com/media/images/MADKAT_NOV23_Originals_Web3.2e16d0ba.fill-700x930-c100.png"
-  },
-  {
-    "name": "SUDADERAS",
-    "imgUrl": "https://leeos-merch.storage.googleapis.com/media/images/MADKAT_NOV23_Originals_Web_Ho.2e16d0ba.fill-700x930-c100.png"
-  },
-  {
-    "name": "CAMISETAS",
-    "imgUrl": "https://leeos-merch.storage.googleapis.com/media/images/MADKAT_NOV23_Originals_Web_TS.2e16d0ba.fill-700x930-c100.png"
+    "imgUrl": "https://leeos-merch.storage.googleapis.com/media/images/MADKAT_NOV23_Originals_Web3.2e16d0ba.fill-700x930-c100.png",
+    "products": [
+      {
+        "name": "Originals - Camiseta",
+        "price": 24.99,
+        "imageUrls": [
+          "https://leeos-merch.storage.googleapis.com/media/images/1._CAMISETA_ORIGINALS_BLANCO_.2e16d0ba.fill-800x933-c100.jpg",
+          "https://leeos-merch.storage.googleapis.com/media/images/3._FOTO_CAMISETA_ORIGINALS_BL.2e16d0ba.fill-800x933-c100.jpg"
+        ],
+        "id": "e82cb276-fc71-4130-b3a8-805c6130f309"
+      },
+      {
+        "name": "Originals - Camiseta",
+        "price": 24.99,
+        "imageUrls": [
+          "https://leeos-merch.storage.googleapis.com/media/images/5._CAMISETA_ORIGINALS_NEGRO_L.2e16d0ba.fill-800x933-c100.jpg",
+          "https://leeos-merch.storage.googleapis.com/media/images/7._FOTO_CAMISETA_ORIGINALS_NE.2e16d0ba.fill-800x933-c100.jpg"
+        ],
+        "id": "71350804-ed95-433f-906e-351d933a3c75"
+      },
+      {
+        "name": "Originals - Camiseta",
+        "price": 24.99,
+        "imageUrls": [
+          "https://leeos-merch.storage.googleapis.com/media/images/9._CAMISETA_ORIGINALS_ROSA_LO.2e16d0ba.fill-800x933-c100.jpg",
+          "https://leeos-merch.storage.googleapis.com/media/images/11._FOTO_CAMISETA_ORIGINALS_R.2e16d0ba.fill-800x933-c100.jpg"
+        ],
+        "id": "26808cda-e296-4a14-b82f-60ab3d3159cf"
+      },
+      {
+        "name": "Originals - Camiseta",
+        "price": 24.99,
+        "imageUrls": [
+          "https://leeos-merch.storage.googleapis.com/media/images/17.2e16d0ba.fill-800x933-c100.jpg",
+          "https://leeos-merch.storage.googleapis.com/media/images/19.2e16d0ba.fill-800x933-c100.jpg"
+        ],
+        "id": "c4357e64-b378-4f96-80c9-6dcda4cf5f1c"
+      },
+      {
+        "name": "Originals - Camiseta",
+        "price": 24.99,
+        "imageUrls": [
+          "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+          "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+        ],
+        "id": "f9e2dbcd-482f-452c-9b7b-473545b7e561"
+      },
+      {
+        "name": "Originals - Sudadera",
+        "price": 39.99,
+        "imageUrls": [
+          "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+          "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+        ],
+        "id": "1fc0a30b-ee27-4df3-8d73-799aba8e03de"
+      },
+      {
+        "name": "Originals - Sudadera",
+        "price": 39.99,
+        "imageUrls": [
+          "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+          "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+        ],
+        "id": "255d5c21-e923-486c-8ba7-a9a9d4ae2895"
+      },
+      {
+        "name": "Originals - Sudadera",
+        "price": 39.99,
+        "imageUrls": [
+          "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+          "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+        ],
+        "id": "c2685284-fa5a-4e46-acd1-4b7cd71fe3f8"
+      },
+      {
+        "name": "Originals - Sudadera",
+        "price": 39.99,
+        "imageUrls": [
+          "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+          "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+        ],
+        "id": "68814b4f-4d23-4821-9fb0-5d7185f63eb1"
+      },
+      {
+        "name": "Originals - Sudadera",
+        "price": 39.99,
+        "imageUrls": [
+          "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+          "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+        ],
+        "id": "330783d0-b603-43c2-ae82-7df9bd16a98a"
+      },
+      {
+        "name": "Originals - Sudadera",
+        "price": 39.99,
+        "imageUrls": [
+          "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+          "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+        ],
+        "id": "ae0955fe-f053-4d40-9546-a0f7eac6888a"
+      },
+      {
+        "name": "Originals - Camiseta Bordada",
+        "price": 24.99,
+        "imageUrls": [
+          "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+          "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+        ],
+        "id": "3d2caf12-eaab-450e-825d-42021ec1db7c"
+      },
+      {
+        "name": "Originals - Camiseta Bordada",
+        "price": 24.99,
+        "imageUrls": [
+          "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+          "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+        ],
+        "id": "945ffd26-613e-43b3-830c-2a5034b9405b"
+      },
+      {
+        "name": "Originals - Camiseta Bordada",
+        "price": 24.99,
+        "imageUrls": [
+          "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+          "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+        ],
+        "id": "5d8e979e-df45-4f10-90a3-a03c8e8d0fd6"
+      },
+      {
+        "name": "Originals - Camiseta Bordada",
+        "price": 24.99,
+        "imageUrls": [
+          "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+          "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+        ],
+        "id": "7859a33d-fe2a-4035-ade9-bdae98c04f53"
+      },
+      {
+        "name": "Originals - Camiseta Bordada",
+        "price": 24.99,
+        "imageUrls": [
+          "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+          "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+        ],
+        "id": "6ee7222f-46e1-4fa2-b62d-cfc00546f1ef"
+      },
+      {
+        "name": "Originals - Sudadera Bordada",
+        "price": 39.99,
+        "imageUrls": [
+          "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+          "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+        ],
+        "id": "9ff21457-c265-4f2e-af5d-d37296b4079f"
+      },
+      {
+        "name": "Originals - Sudadera Bordada",
+        "price": 39.99,
+        "imageUrls": [
+          "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+          "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+        ],
+        "id": "2cfa93a8-e332-4703-95f1-b40031ff6e36"
+      },
+      {
+        "name": "Originals - Sudadera Bordada",
+        "price": 39.99,
+        "imageUrls": [
+          "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+          "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+        ],
+        "id": "6fcd9f8f-3bf1-4239-90c5-a24a45a2362d"
+      },
+      {
+        "name": "Originals - Sudadera Bordada",
+        "price": 39.99,
+        "imageUrls": [
+          "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+          "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+        ],
+        "id": "631f4e4e-651f-4f75-9478-542a284e40c9"
+      },
+      {
+        "name": "Originals - Sudadera Bordada",
+        "price": 39.99,
+        "imageUrls": [
+          "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+          "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+        ],
+        "id": "c8ab0fad-bcc5-46a1-b54a-32e9458357b7"
+      },
+      {
+        "name": "Originals - Sudadera Bordada",
+        "price": 39.99,
+        "imageUrls": [
+          "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+          "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+        ],
+        "id": "7daa38b0-8d8d-41d0-a4e5-9cbf4b0e95fb"
+      },
+      {
+        "name": "New Originals - Camiseta",
+        "price": 24.99,
+        "imageUrls": [
+          "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+        ],
+        "id": "7c7f8bec-2ba7-4abf-ba69-be41dfaafcd5"
+      },
+      {
+        "name": "New Originals - Camiseta",
+        "price": 24.99,
+        "imageUrls": [
+          "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+        ],
+        "id": "5de4a2e1-43df-496c-86f8-1ec189d37f60"
+      },
+      {
+        "name": "New Originals - Camiseta",
+        "price": 24.99,
+        "imageUrls": [
+          "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+        ],
+        "id": "776cab01-3133-4fd9-b520-34edc6383c08"
+      },
+      {
+        "name": "New Originals  v.2 - Camiseta",
+        "price": 24.99,
+        "imageUrls": [
+          "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+        ],
+        "id": "86bb616a-9ca1-4748-bc52-b29b011ea6f9"
+      },
+      {
+        "name": "New Originals  v.2 - Camiseta",
+        "price": 24.99,
+        "imageUrls": [
+          "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+        ],
+        "id": "519273c2-71e7-4a4b-ac11-c7ccbb21f5bc"
+      },
+      {
+        "name": "New Originals  v.2 - Camiseta",
+        "price": 24.99,
+        "imageUrls": [
+          "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+        ],
+        "id": "6bfb758b-949e-409e-965d-cf3818db60d9"
+      },
+      {
+        "name": "New Originals - Sudadera",
+        "price": 39.99,
+        "imageUrls": [
+          "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+        ],
+        "id": "457d923b-0940-4d4d-be68-871c993a187e"
+      },
+      {
+        "name": "New Originals - Sudadera",
+        "price": 39.99,
+        "imageUrls": [
+          "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+        ],
+        "id": "91e08759-af9c-4ccc-a665-27566007dba4"
+      },
+      {
+        "name": "New Originals - Sudadera",
+        "price": 39.99,
+        "imageUrls": [
+          "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+        ],
+        "id": "0d9e5c43-e773-4a9e-8c2b-32b5cf3f8f9f"
+      },
+      {
+        "name": "New Originals v.2 - Sudadera",
+        "price": 39.99,
+        "imageUrls": [
+          "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+        ],
+        "id": "03180f19-69d4-4bc2-98a0-5b0ad5cdc4b7"
+      },
+      {
+        "name": "New Originals v.2 - Sudadera",
+        "price": 39.99,
+        "imageUrls": [
+          "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+        ],
+        "id": "97d8cc7a-cfc3-4a26-bfea-840508c5aa60"
+      },
+      {
+        "name": "New Originals v.2 - Sudadera",
+        "price": 39.99,
+        "imageUrls": [
+          "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+        ],
+        "id": "83a71c92-849b-4c9d-bd5f-fded24a4766a"
+      },
+      {
+        "name": "Beanies + Pins Pack Pink Charm",
+        "price": 29.99,
+        "imageUrls": [
+          "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+          "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+        ],
+        "id": "246ed231-b27c-46db-b754-385ee98f19c8"
+      },
+      {
+        "name": "Beanies + Pins pack Autum Charm",
+        "price": 29.99,
+        "imageUrls": [
+          "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+          "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+        ],
+        "id": "9b3f1825-ed27-4334-88e0-97fcc9acf154"
+      },
+      {
+        "name": "Beanies + Pins pack Green Boldness",
+        "price": 29.99,
+        "imageUrls": [
+          "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+          "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+        ],
+        "id": "64ef86d5-45a5-48c3-9899-2a7b254b4862"
+      },
+      {
+        "name": "Beanies + Pins pack Clashing Boldness",
+        "price": 29.99,
+        "imageUrls": [
+          "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+          "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+        ],
+        "id": "91e94bc8-2fb6-45dc-b61d-882631da7da2"
+      },
+      {
+        "name": "Originals - Gorra Blanca",
+        "price": 24.99,
+        "imageUrls": [
+          "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+          "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+        ],
+        "id": "c3727ae2-ffe6-44d0-b7f1-446c8296900f"
+      },
+      {
+        "name": "Originals - Gorra Rosa",
+        "price": 24.99,
+        "imageUrls": [
+          "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+          "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+        ],
+        "id": "008ca3be-dfd8-436c-a570-53e496ffc9c9"
+      },
+      {
+        "name": "Originals - Botella",
+        "price": 19.99,
+        "imageUrls": [
+          "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+          "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+        ],
+        "id": "fbd20557-a20c-4575-9ace-79789015d97f"
+      },
+      {
+        "name": "Originals - Mochila",
+        "price": 39.99,
+        "imageUrls": [
+          "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+          "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+        ],
+        "id": "9958e6fc-d3fe-490b-bfe4-5b0272150831"
+      },
+      {
+        "name": "Beanies pack - Pink Charm",
+        "price": 24.99,
+        "imageUrls": [
+          "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+          "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+        ],
+        "id": "c14ec560-fec3-4dec-b567-f8451445d6cc"
+      },
+      {
+        "name": "Beanies pack - Autum Charm",
+        "price": 24.99,
+        "imageUrls": [
+          "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+          "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+        ],
+        "id": "c2c65d58-b146-455e-abe6-82c26bfc6665"
+      },
+      {
+        "name": "Beanies pack - Green Boldness",
+        "price": 24.99,
+        "imageUrls": [
+          "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+          "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+        ],
+        "id": "f266765b-1a06-4c78-9494-15fcead85044"
+      },
+      {
+        "name": "Beanies pack - Clashing Boldness",
+        "price": 24.99,
+        "imageUrls": [
+          "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+          "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+        ],
+        "id": "3af78cc5-02b8-4e4c-823a-cc83e02f8e94"
+      },
+      {
+        "name": "Originals - Beanie",
+        "price": 19.99,
+        "imageUrls": [
+          "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+          "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+        ],
+        "id": "b7225613-1ccc-474c-829d-0e671c7ad18a"
+      },
+      {
+        "name": "Originals - Pins",
+        "price": 15.99,
+        "imageUrls": [
+          "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+          "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+        ],
+        "id": "71eaf108-631a-4cf7-9709-9be88cdd44b4"
+      }
+    ]
   },
   {
     "name": "ACCESORIOS",
-    "imgUrl": "https://leeos-merch.storage.googleapis.com/media/images/MADKAT_NOV23_Originals_Web_Ac.2e16d0ba.fill-700x930-c100.png"
+    "imgUrl": "https://leeos-merch.storage.googleapis.com/media/images/MADKAT_NOV23_Originals_Web_Ac.2e16d0ba.fill-700x930-c100.png",
+    "products": [
+      {
+        "name": "DRIFT RUBIUS DR110",
+        "price": 219.9,
+        "imageUrls": [
+          "https://leeos-merch.storage.googleapis.com/media/images/drift_dr110_rubius_front_1200.2e16d0ba.fill-800x933-c100.jpg",
+          "https://leeos-merch.storage.googleapis.com/media/images/drift_dr110_rubius_top_1200x1.2e16d0ba.fill-800x933-c100.jpg"
+        ],
+        "id": "193a1d9a-8a89-4920-b9df-6ffdb4563c5a"
+      },
+      {
+        "name": "Mad Socks",
+        "price": 26.99,
+        "imageUrls": [
+          "https://leeos-merch.storage.googleapis.com/media/images/MK_-_Socks_Full_Set.2e16d0ba.fill-800x933-c100.png",
+          "https://leeos-merch.storage.googleapis.com/media/images/MK_-_Socks_Open_Box.2e16d0ba.fill-800x933-c100.png"
+        ],
+        "id": "502fd7e2-429a-424e-b35d-60a363bb890f"
+      },
+      {
+        "name": "Originals - Mochila",
+        "price": 39.99,
+        "imageUrls": [
+          "https://leeos-merch.storage.googleapis.com/media/images/MKOG30_01.2e16d0ba.fill-800x933-c100.jpg",
+          "https://leeos-merch.storage.googleapis.com/media/images/MKOG29_01.2e16d0ba.fill-800x933-c100.jpg"
+        ],
+        "id": "cf7fa738-6108-48d6-a7d1-6f35a45c0041"
+      },
+      {
+        "name": "Beanies + Pins Pack Pink Charm",
+        "price": 29.99,
+        "imageUrls": [
+          "https://leeos-merch.storage.googleapis.com/media/images/MADKAT_Beanie_BlackPink_Pins_.2e16d0ba.fill-800x933-c100.jpg",
+          "https://leeos-merch.storage.googleapis.com/media/images/MADKAT_Beanie_BlackPink_Detra.2e16d0ba.fill-800x933-c100.jpg"
+        ],
+        "id": "11b33a0b-2efe-4a62-89be-136ccc9c4a34"
+      },
+      {
+        "name": "Beanies + Pins pack Autum Charm",
+        "price": 29.99,
+        "imageUrls": [
+          "https://leeos-merch.storage.googleapis.com/media/images/MADKAT_Beanie_MustardOlive_Pi.2e16d0ba.fill-800x933-c100.jpg",
+          "https://leeos-merch.storage.googleapis.com/media/images/MADKAT_Beanie_MustardOlive_De.2e16d0ba.fill-800x933-c100.jpg"
+        ],
+        "id": "c0d3d9ba-3593-4225-9004-7ef8997a8a06"
+      },
+      {
+        "name": "Beanies + Pins pack Green Boldness",
+        "price": 29.99,
+        "imageUrls": [
+          "https://leeos-merch.storage.googleapis.com/media/images/MADKAT_Beanie_CharcoalGreen_P.2e16d0ba.fill-800x933-c100.jpg",
+          "https://leeos-merch.storage.googleapis.com/media/images/MADKAT_Beanie_CharcoalGreen_D.2e16d0ba.fill-800x933-c100.jpg"
+        ],
+        "id": "459b64ef-27cf-4f06-978f-708b03783ccf"
+      },
+      {
+        "name": "Beanies + Pins pack Clashing Boldness",
+        "price": 29.99,
+        "imageUrls": [
+          "https://leeos-merch.storage.googleapis.com/media/images/MADKAT_Beanie_PurpleOrange_Pi.2e16d0ba.fill-800x933-c100.jpg",
+          "https://leeos-merch.storage.googleapis.com/media/images/MADKAT_Beanie_PurpleOrange_De.2e16d0ba.fill-800x933-c100.jpg"
+        ],
+        "id": "e8c0bb01-1a58-45f5-8276-80785236bfe8"
+      },
+      {
+        "name": "Beanies + Pins pack Clashing Boldness",
+        "price": 29.99,
+        "imageUrls": [
+          "https://leeos-merch.storage.googleapis.com/media/images/MADKAT_Beanie_PurpleOrange_Pi.2e16d0ba.fill-800x933-c100.jpg",
+          "https://leeos-merch.storage.googleapis.com/media/images/MADKAT_Beanie_PurpleOrange_De.2e16d0ba.fill-800x933-c100.jpg"
+        ],
+        "id": "de3d2326-c688-4a98-ad86-bfe5ee089017"
+      },
+      {
+        "name": "Originals - Pins",
+        "price": 15.99,
+        "imageUrls": [
+          "https://leeos-merch.storage.googleapis.com/media/images/MKTC3_01.2e16d0ba.fill-800x933-c100.jpg",
+          "https://leeos-merch.storage.googleapis.com/media/images/MKTC3_02.2e16d0ba.fill-800x933-c100.jpg"
+        ],
+        "id": "27b1142e-74e0-46ee-a1f2-7d430939e61f"
+      },
+      {
+        "name": "Originals - Beanie",
+        "price": 19.99,
+        "imageUrls": [
+          "https://leeos-merch.storage.googleapis.com/media/images/MKOG21_01.2e16d0ba.fill-800x933-c100.jpg",
+          "https://leeos-merch.storage.googleapis.com/media/images/MKOG22_01.2e16d0ba.fill-800x933-c100.jpg"
+        ],
+        "id": "603e96b6-2e51-4039-8f33-6cb112b10018"
+      },
+      {
+        "name": "Originals - Botella",
+        "price": 19.99,
+        "imageUrls": [
+          "https://leeos-merch.storage.googleapis.com/media/images/MKOG24_01.2e16d0ba.fill-800x933-c100.jpg",
+          "https://leeos-merch.storage.googleapis.com/media/images/MKOG25_01.2e16d0ba.fill-800x933-c100.jpg"
+        ],
+        "id": "ad293133-e57f-4496-a724-6a276594ab06"
+      },
+      {
+        "name": "Beanies pack - Pink Charm",
+        "price": 24.99,
+        "imageUrls": [
+          "https://leeos-merch.storage.googleapis.com/media/images/MADKAT_Beanie_BlackPink_NoPin.2e16d0ba.fill-800x933-c100.jpg",
+          "https://leeos-merch.storage.googleapis.com/media/images/MADKAT_Beanie_BlackPink_Detra.2e16d0ba.fill-800x933-c100.jpg"
+        ],
+        "id": "60d256cc-28ab-4706-9b59-69c254c02aed"
+      },
+      {
+        "name": "Beanies pack - Autum Charm",
+        "price": 24.99,
+        "imageUrls": [
+          "https://leeos-merch.storage.googleapis.com/media/images/MADKAT_Beanie_MustardOlive_Si.2e16d0ba.fill-800x933-c100.jpg",
+          "https://leeos-merch.storage.googleapis.com/media/images/MADKAT_Beanie_MustardOlive_De.2e16d0ba.fill-800x933-c100.jpg"
+        ],
+        "id": "58bda126-c058-4da1-975a-5f29070ab92f"
+      },
+      {
+        "name": "Beanies pack - Green Boldness",
+        "price": 24.99,
+        "imageUrls": [
+          "https://leeos-merch.storage.googleapis.com/media/images/MADKAT_Beanie_CharcoalGreen_S.2e16d0ba.fill-800x933-c100.jpg",
+          "https://leeos-merch.storage.googleapis.com/media/images/MADKAT_Beanie_CharcoalGreen_D.2e16d0ba.fill-800x933-c100.jpg"
+        ],
+        "id": "f1a04044-4da6-4e22-a856-d1e285c3c4c5"
+      },
+      {
+        "name": "Beanies pack - Clashing Boldness",
+        "price": 24.99,
+        "imageUrls": [
+          "https://leeos-merch.storage.googleapis.com/media/images/MADKAT_Beanie_PurpleOrange_Si.2e16d0ba.fill-800x933-c100.jpg",
+          "https://leeos-merch.storage.googleapis.com/media/images/MADKAT_Beanie_PurpleOrange_De.2e16d0ba.fill-800x933-c100.jpg"
+        ],
+        "id": "ee5f0a76-d7bb-41ac-9a26-db465e02ac7b"
+      },
+      {
+        "name": "Drift MADKAT XL - Extended Gaming Mousepad",
+        "price": 29.9,
+        "imageUrls": [
+          "https://leeos-merch.storage.googleapis.com/media/images/Copy_of_Copy_of_drift_drmadka.2e16d0ba.fill-800x933-c100.jpg",
+          "https://leeos-merch.storage.googleapis.com/media/images/Copy_of_Copy_of_drift_drmadka.2e16d0ba.fill-800x933-c100_BzTlQfG.jpg"
+        ],
+        "id": "21da379d-b14d-44cd-87b2-bdd0797991ef"
+      },
+      {
+        "name": "RUBIUS PRO GAMING CHAIR feat. DRIFT",
+        "price": 269.9,
+        "imageUrls": [
+          "https://leeos-merch.storage.googleapis.com/media/images/Drift_DR250_Rubius_Turn_Left.2e16d0ba.fill-800x933-c100.jpg",
+          "https://leeos-merch.storage.googleapis.com/media/images/Drift_DR250_Rubius_Back.2e16d0ba.fill-800x933-c100.jpg"
+        ],
+        "id": "afb621bc-a532-4ed9-b916-b1dd0d4a39da"
+      },
+      {
+        "name": "Urban - Gorra Rosa",
+        "price": 29.99,
+        "imageUrls": [
+          "https://leeos-merch.storage.googleapis.com/media/images/MKUB22_01.2e16d0ba.fill-800x933-c100.jpg",
+          "https://leeos-merch.storage.googleapis.com/media/images/MKUB22_02.2e16d0ba.fill-800x933-c100.jpg"
+        ],
+        "id": "9f391da0-3456-40ae-9388-ee32289ad130"
+      },
+      {
+        "name": "Urban - Gorra Blanca",
+        "price": 29.99,
+        "imageUrls": [
+          "https://leeos-merch.storage.googleapis.com/media/images/MKUB21_01.2e16d0ba.fill-800x933-c100.jpg",
+          "https://leeos-merch.storage.googleapis.com/media/images/MKUB21_02.2e16d0ba.fill-800x933-c100.jpg"
+        ],
+        "id": "c8ec985e-437f-43b6-830f-051fdcec54e1"
+      }
+    ]
   }
 ]

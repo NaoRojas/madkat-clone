@@ -21,11 +21,13 @@ const Navigation = () => {
     <Fragment>
       <div className="navigation">
         <div className="logo-container">
-          <img
-            className="logo-img"
-            src="https://www.madkat.store/images/logo-black.png"
-            alt=""
-          />
+          <Link to="/">
+            <img
+              className="logo-img"
+              src="https://www.madkat.store/images/logo-black.png"
+              alt=""
+            />
+          </Link>
         </div>
         <div className="nav-links-container">
           <Link className="nav-link" to="/shop">
