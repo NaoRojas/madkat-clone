@@ -5,7 +5,7 @@ import { useContext } from 'react'
 
 const ProductCard = ({ product }) => {
   const { name, price, imageUrls } = product
-  const { addToCart } = useContext(CartContext)
+  const { addItemToCart } = useContext(CartContext)
   return (
     <div className="product-card-container">
       <div className="image-container">
@@ -14,9 +14,9 @@ const ProductCard = ({ product }) => {
       </div>
       <div className="footer">
         <span className="name">{name}</span>
-        <span className="price">{price}</span>
+        <span className="price">${price}</span>
       </div>
-      <Button buttonType="inverted" onClick={() => addToCart(product)}>
+      <Button buttonType="inverted" onClick={() => addItemToCart(product)}>
         Add to cart
       </Button>
     </div>
