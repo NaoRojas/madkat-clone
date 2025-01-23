@@ -3,17 +3,16 @@ import { CART_ACTION_TYPES } from "./cart.types"
 export const INITIAL_STATE = {
   cartItems: [],
   showCartDropdown: false,
-
 }
 
-export const cartReducer = (state, action) => {
+export const cartReducer = (state = INITIAL_STATE, action) => {
   const { type, payload } = action
 
   switch (type) {
     case CART_ACTION_TYPES.SET_CART_ITEMS:
       return {
         ...state,
-        carItems: payload,
+        cartItems: payload,
       }
     case CART_ACTION_TYPES.SET_IS_CART_OPEN:
       return {
@@ -21,6 +20,6 @@ export const cartReducer = (state, action) => {
         showCartDropdown: !state.showCartDropdown,
       }
     default:
-      throw new Error(`Unhandled type ${type} in cartReducer`)
+      return state
   }
 }

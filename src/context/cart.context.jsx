@@ -58,7 +58,7 @@ export const INITIAL_STATE = {
   cartItemsCount: 0,
 }
 
-const cartReducer = (state, action) => {
+const cartReducer = (state = INITIAL_STATE, action) => {
   const { type, payload } = action
 
   switch (type) {
