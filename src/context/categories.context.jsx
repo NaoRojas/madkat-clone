@@ -27,7 +27,6 @@ export const CategoriesProvider = ({ children }) => {
         })
       )
       setCategories(categoriesToArray)
-      console.log(categoriesToArray)
     }
     fetchCategories()
   }, [])

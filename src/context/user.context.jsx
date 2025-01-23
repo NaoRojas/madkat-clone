@@ -33,7 +33,6 @@ export const UserProvider = ({ children }) => {
   // const value = { currentUser, setCurrentUser }
   const { currentUser } = state
   const value = { currentUser, dispatch }
-  console.log(currentUser)
 
   useEffect(() => {
     const unsubscribe = onAuthStateChangedListener((user) => {

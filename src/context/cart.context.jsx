@@ -81,7 +81,6 @@ export const CartProvider = ({ children }) => {
   )
 
   const updateCartItemsReducer = (newCartItems) => {
-    console.log(cartItems)
     const newCartCount = newCartItems.reduce(
       (total, cartItem) => total + cartItem.quantity,
       0
