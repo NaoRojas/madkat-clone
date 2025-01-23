@@ -14,6 +14,7 @@ export const USER_ACTIONS_TYPES = {
 }
 
 const userReducer = (state, action) => {
+  console.log('action', action)
   const { type, payload } = action
   switch (type) {
     case USER_ACTIONS_TYPES.SET_CURRENT_USER:
