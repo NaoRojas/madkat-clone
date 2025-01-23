@@ -3,6 +3,7 @@ import './category.styles.scss'
 import { useParams } from 'react-router-dom'
 import ProductCard from '../../components/product-card/product-card.component'
 import { selectCategories } from '../../store/categories/categories.selector'
+import { useSelector } from 'react-redux'
 
 const Category = () => {
   const { category } = useParams()
