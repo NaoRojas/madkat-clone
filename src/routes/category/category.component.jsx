@@ -11,7 +11,7 @@ const Category = () => {
   const [products, setProducts] = useState([])
 
   useEffect(() => {
-    setProducts(categories.find((cat) => cat.category === category).products)
+    setProducts(categories.find((cat) => cat.category === category)?.products)
   }, [category, categories])
 
   return (
