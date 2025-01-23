@@ -4,22 +4,21 @@ import './index.scss';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom';
-import { UserProvider } from './context/user.context';
 import { CategoriesProvider } from './context/categories.context';
 import { CartProvider } from './context/cart.context';
-
+import { store } from '../src/store/store';
+import { Provider } from 'react-redux';
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter>
-      <CategoriesProvider>
-        <UserProvider>
+    <Provider store={store}>
+      <BrowserRouter>
+        <CategoriesProvider>
           <CartProvider>
             <App />
-
           </CartProvider>
-        </UserProvider>
-      </CategoriesProvider>
-    </BrowserRouter>
+        </CategoriesProvider>
+      </BrowserRouter>
+    </Provider>
   </React.StrictMode>,
   document.getElementById('root')
 );
