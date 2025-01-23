@@ -1,9 +1,10 @@
 import { useContext } from 'react'
-import { CategoriesContext } from '../../context/categories.context'
 import './categories.styles.scss'
 import Directory from '../../components/directory/directory.component'
+import { selectCategories } from '../../store/categories/categories.selector'
+
 const Categories = () => {
-  const { categories } = useContext(CategoriesContext)
+  const categories = useSelector(selectCategories)
 
   return <>{categories.length && <Directory categories={categories} />}</>
 }
