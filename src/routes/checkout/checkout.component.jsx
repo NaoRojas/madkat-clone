@@ -1,17 +1,22 @@
-import { useContext } from 'react'
-import { CartContext } from '../../context/cart.context'
-
 import './checkout.styles.scss'
 import Button from '../../components/button/button.component'
+import { useDispatch, useSelector } from 'react-redux'
+import {
+  addItemToCart,
+  clearItemFromCart,
+  removeItemToCart,
+} from '../../store/cart/cart.actions'
+import {
+  selectCartItems,
+  selectCartTotal,
+} from '../../store/cart/cart.selector'
 
 const Checkout = () => {
-  const {
-    cartItems,
-    cartTotal,
-    removeItemToCart,
-    addItemToCart,
-    clearItemFromCart,
-  } = useContext(CartContext)
+  const dispatch = useDispatch()
+
+  const cartTotal = useSelector(selectCartTotal)
+  const cartItems = useSelector(selectCartItems)
+
   return (
     <div className="checkout">
       <h1>Checkout</h1>
@@ -26,7 +31,7 @@ const Checkout = () => {
                   <span className="name">{item.name}</span>
                   <span
                     className="material-icons"
-                    onClick={() => clearItemFromCart(item)}
+                    onClick={() => dispatch(clearItemFromCart(cartItems, item))}
                   >
                     close
                   </span>
@@ -36,14 +41,16 @@ const Checkout = () => {
                   <div className="quantity-conatiner">
                     <span
                       className="material-icons"
-                      onClick={() => removeItemToCart(item)}
+                      onClick={() =>
+                        dispatch(removeItemToCart(cartItems, item))
+                      }
                     >
                       arrow_back_ios
                     </span>
                     <span className="quantity">{item.quantity}</span>
                     <span
                       className="material-icons"
-                      onClick={() => addItemToCart(item)}
+                      onClick={() => dispatch(addItemToCart(cartItems, item))}
                     >
                       arrow_forward_ios
                     </span>

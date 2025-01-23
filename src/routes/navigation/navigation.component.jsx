@@ -1,17 +1,19 @@
 import { Fragment } from 'react'
 import { Outlet, Link } from 'react-router-dom'
-import { useContext } from 'react'
 import './navigation.styles.scss'
 import { signOutUser } from '../../utils/firebase/firebase.utils'
 import CartIcon from '../../components/cart-icon/cart-icon.component'
 import CartDropdown from '../../components/cart-dropdown/cart-dropdown.component'
-import { CartContext } from '../../context/cart.context'
-import { useSelector } from 'react-redux'
+import { useDispatch, useSelector } from 'react-redux'
 import { selectCurrentUser } from '../../store/user/user.selector'
+import { selectIsCartOpen } from '../../store/cart/cart.selector'
+import { setIsCartOpen } from '../../store/cart/cart.actions'
 
 const Navigation = () => {
   const currentUser = useSelector(selectCurrentUser)
-  const { isCartOpen, toggleCartHidden } = useContext(CartContext)
+
+  const showCartDropdown = useSelector(selectIsCartOpen)
+  const dispatch = useDispatch()
   const signOutHandler = async () => {
     await signOutUser()
     // setCurrentUser(null)
@@ -38,9 +40,13 @@ const Navigation = () => {
               Sign In
             </Link>
           )}
-          <CartIcon toggleCart={toggleCartHidden} />
+          <CartIcon
+            toggleCart={() => {
+              dispatch(setIsCartOpen(!showCartDropdown))
+            }}
+          />
         </div>
-        {isCartOpen && <CartDropdown />}
+        {showCartDropdown && <CartDropdown />}
       </div>
       <div className="main">
         <Outlet />
