@@ -24,7 +24,6 @@ const Category = () => {
         <Spinner />
       ) : (
         <>
-          {' '}
           <h2>{category}</h2>
           <div className="product-list">
             {products.map((product) => (
