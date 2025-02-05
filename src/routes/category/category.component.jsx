@@ -1,14 +1,18 @@
-import { useContext, useEffect, useState } from 'react'
-import './category.styles.scss'
+import { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
 import ProductCard from '../../components/product-card/product-card.component'
-import { selectCategories } from '../../store/categories/categories.selector'
+import {
+  selectCategories,
+  selectCategoriesIsLoading,
+} from '../../store/categories/categories.selector'
 import { useSelector } from 'react-redux'
-
+import './category.styles.scss'
+import Spinner from '../../components/spinner/spinner.component'
 const Category = () => {
   const { category } = useParams()
   const categories = useSelector(selectCategories)
   const [products, setProducts] = useState([])
+  const isLoading = useSelector(selectCategoriesIsLoading)
 
   useEffect(() => {
     setProducts(categories.find((cat) => cat.category === category)?.products)
@@ -16,8 +20,11 @@ const Category = () => {
 
   return (
     <>
-      {products?.length ? (
+      {isLoading ? (
+        <Spinner />
+      ) : (
         <>
+          {' '}
           <h2>{category}</h2>
           <div className="product-list">
             {products.map((product) => (
@@ -25,8 +32,6 @@ const Category = () => {
             ))}
           </div>
         </>
-      ) : (
-        <h2>No products found</h2>
       )}
     </>
   )
