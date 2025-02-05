@@ -16,7 +16,7 @@ const Category = () => {
 
   return (
     <>
-      {products.length ? (
+      {products?.length ? (
         <>
           <h2>{category}</h2>
           <div className="product-list">

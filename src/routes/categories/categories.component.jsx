@@ -6,7 +6,13 @@ import { useSelector } from 'react-redux'
 const Categories = () => {
   const categories = useSelector(selectCategories)
 
-  return <>{categories?.length && <Directory categories={categories} />}</>
+  return (
+    <>
+      {categories && categories?.length && (
+        <Directory categories={categories} />
+      )}
+    </>
+  )
 }
 
 export default Categories
