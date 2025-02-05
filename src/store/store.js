@@ -4,17 +4,18 @@ import { persistStore, persistReducer } from 'redux-persist'
 import { loggerMiddleware } from './middleware/logger'
 import storage from 'redux-persist/lib/storage'
 import logger from 'redux-logger'
+import { thunk } from 'redux-thunk'
 
 const persistConfig = {
   key: 'root',
   storage,
-  blacklist: ['user'],
+  whitelist: ['cart'],
 }
 
 const persistedReducer = persistReducer(persistConfig, rootReducer)
 
 //root-reducer
-const middlewares = [process.env.NODE_ENV === 'development' && logger && loggerMiddleware].filter(Boolean)
+const middlewares = [process.env.NODE_ENV === 'development' && logger, thunk, loggerMiddleware].filter(Boolean)
 // What is the purpose of the filter(Boolean) method in the middlewares array?
 // The filter(Boolean) method removes any falsy values from the middlewares array. 
 // In this case, the filter method removes any undefined values from the array.
