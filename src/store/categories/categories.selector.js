@@ -1,3 +1,13 @@
-export const selectCategories = (state) => state.categories.categories
+import { createSelector } from "reselect"
 
-export const selectCategoriesIsLoading = (state) => state.categories.isLoading
+export const selectCategoriesReducer = (state) => state.categories
+
+export const selectCategories = createSelector(
+  [selectCategoriesReducer],
+  (categories) => categories.categories
+)
+
+export const selectCategoriesIsLoading = createSelector(
+  [selectCategoriesReducer],
+  (categories) => categories.isLoading
+)
