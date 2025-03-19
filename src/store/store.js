@@ -4,7 +4,10 @@ import { persistStore, persistReducer } from 'redux-persist'
 import { loggerMiddleware } from './middleware/logger'
 import storage from 'redux-persist/lib/storage'
 import logger from 'redux-logger'
-import { thunk } from 'redux-thunk'
+// import { thunk } from 'redux-thunk'
+// sagas replace thunks
+import createSagaMiddleware from 'redux-saga'
+import { rootSaga } from './root-saga'
 
 const persistConfig = {
   key: 'root',
@@ -12,10 +15,12 @@ const persistConfig = {
   whitelist: ['cart'],
 }
 
+const sagaMiddleware = createSagaMiddleware()
+
 const persistedReducer = persistReducer(persistConfig, rootReducer)
 
 //root-reducer
-const middlewares = [process.env.NODE_ENV === 'development' && logger, thunk, loggerMiddleware].filter(Boolean)
+const middlewares = [process.env.NODE_ENV === 'development' && logger, sagaMiddleware, loggerMiddleware].filter(Boolean)
 // What is the purpose of the filter(Boolean) method in the middlewares array?
 // The filter(Boolean) method removes any falsy values from the middlewares array. 
 // In this case, the filter method removes any undefined values from the array.
@@ -25,4 +30,5 @@ const middlewares = [process.env.NODE_ENV === 'development' && logger, thunk, lo
 // and the filter method removes the undefined value from the array.
 const composeEnhancers = compose(applyMiddleware(...middlewares))
 export const store = createStore(persistedReducer, undefined, composeEnhancers)
+sagaMiddleware.run(rootSaga)
 export const persistor = persistStore(store)
